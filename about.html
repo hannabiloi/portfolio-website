@@ -27,6 +27,10 @@
       rel="stylesheet"
     />
     <link rel="icon" href="/images/code-icon.png" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/6cdb6a8af2.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <nav class="navbar fixed-top navbar-expand-lg bg-light">
@@ -45,56 +49,57 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link" href="/">Home</a>
-            <a class="nav-link" href="/#contact-me">Contact me</a>
-            <a class="nav-link active" aria-current="page" href="#">About</a>
+            <a class="nav-link" aria-current="page" href="/index.html" title="Home page"
+              >Home</a
+            >
+            <a class="nav-link active" href="/about.html" title="About me"
+              >About</a
+            >
+            <a class="nav-link" href="/work.html" title="My work link">Work</a>
+            <a class="nav-link" href="/contact.html" title="Contact me link"
+              >Contact</a
+            >
           </div>
         </div>
       </div>
     </nav>
-    <div class="main">
-      <h1>About me</h1>
-      <h3>Front-end developer from Kyiv🇺🇦</h3>
-      <div class="about-paragraph">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-          aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-          alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-          blanditiis harum. Lorem ipsum dolor sit amet, consectetur adipisicing
-          elit. Numquam aperiam provident tempora? Cumque adipisci, non dolorem
-          quia, odit qui alias veniam excepturi rem dolor fugit dignissimos, sed
-          voluptatum blanditiis harum.
-        </p>
-      </div>
-
-      <div class="container mt-3">
-        <div class="row d-flex justify-content-evenly">
-          <div class="col-md-6 mb-3">
-            <div class="paragraph-image">
-              <strong>Weather app</strong>
-              <img
-                src="/images/weather-app.jpg"
-                alt="weather-app-project"
-                class="img-fluid border rounded preview"
-              />
-            </div>
-          </div>
-          <div class="col-md-6 mb-3">
-            <div class="paragraph-image">
-              <strong>HTML Page</strong>
-              <img
-                src="/images/yeezy.jpg"
-                alt="html-page-project"
-                class="img-fluid border rounded preview"
-              />
-            </div>
+    <div class="container about-container">
+      <div class="row d-flex text-center justify-content-evenly mt-5">
+        <div class="col-md-6 mt-4 d-none d-lg-block">
+          <img
+            src="/images/photo.jpg"
+            alt="photo"
+            class="img-fluid profile-photo"
+          />
+        </div>
+        <div class="col-6 text-center mt-4">
+          <h2 class="about">Hi, my name is Hanna</h2>
+          <p class="about-paragraph">
+            I'm Ukrainian girl, lived in Kyiv, but now located in Wroclaw, Poland. <br>
+             
+          </p>
+          <div class="row d-flex text-center justify-content-evenly mt-5">
+            <div class="col-3"><i class="fa-brands fa-html5 icon"></i></div>
+            <div class="col-3"><i class="fa-brands fa-css3-alt icon"></i></div>
+            <div class="col-3"><i class="fa-brands fa-js-square icon"></i></div>
+            <div class="col-3"><i class="fa-brands fa-react icon"></i></div>
           </div>
         </div>
       </div>
-      <h2 id="contact-me">✉️ Contact me</h2>
-      <a href="mailto:beloy1991@gmail.com" class="email-link" title="Email link"
-        >beloy1991@gmail.com</a
-      >
+    </div>
+   
+    <div
+      class="bg-light d-flex align-items-center justify-content-center footer"
+    >
+      <a
+        href="https://www.linkedin.com/in/hanna-biloi-738196236/"
+        target="_blank"
+        alt="Linkedin page"
+        ><i class="fa-brands fa-linkedin icons"></i
+      ></a>
+      <a href="https://github.com/hannabiloi" target="_blank" alt="Github page"
+        ><i class="fa-brands fa-github icons"></i
+      ></a>
     </div>
   </body>
 </html>

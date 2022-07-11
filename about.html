@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="description" content="About me" />
+    <meta name="description" content="About me page" />
     <title>Hanna Biloi|About me</title>
     <!-- CSS only -->
     <link
@@ -33,9 +33,15 @@
     ></script>
   </head>
   <body>
+    <header>
+      <div class="switch">
+        <div class="flicker"></div>
+        <div class="moon"></div>
+      </div>
+    </header>
     <nav class="navbar fixed-top navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Hanna Biloi</a>
+        <a class="navbar-brand" href="/index.html">Hanna Biloi</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -49,7 +55,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link" aria-current="page" href="/index.html" title="Home page"
+            <a
+              class="nav-link"
+              aria-current="page"
+              href="/index.html"
+              title="Home page"
               >Home</a
             >
             <a class="nav-link active" href="/about.html" title="About me"
@@ -65,20 +75,22 @@
     </nav>
     <div class="container about-container">
       <div class="row d-flex text-center justify-content-evenly mt-5">
-        <div class="col-md-6 mt-4 d-none d-lg-block">
+        <div class="col-sm-6 mt-4 d-none d-md-block">
           <img
             src="/images/photo.jpg"
             alt="photo"
             class="img-fluid profile-photo"
           />
         </div>
-        <div class="col-6 text-center mt-4">
+        <div class="col text-center mt-4">
           <h2 class="about">Hi, my name is Hanna</h2>
-          <p class="about-paragraph">
-            I'm Ukrainian girl, lived in Kyiv, but now located in Wroclaw, Poland. <br>
-             
+          <p class="about-paragraph background">
+            I'm Ukrainian girl, lived in Kyiv, but now located in Wroclaw,
+            Poland. <br />
           </p>
-          <div class="row d-flex text-center justify-content-evenly mt-5">
+          <div
+            class="row d-flex d-md-none d-lg-flex text-center justify-content-evenly mt-5"
+          >
             <div class="col-3"><i class="fa-brands fa-html5 icon"></i></div>
             <div class="col-3"><i class="fa-brands fa-css3-alt icon"></i></div>
             <div class="col-3"><i class="fa-brands fa-js-square icon"></i></div>
@@ -87,7 +99,7 @@
         </div>
       </div>
     </div>
-   
+
     <div
       class="bg-light d-flex align-items-center justify-content-center footer"
     >
@@ -101,5 +113,6 @@
         ><i class="fa-brands fa-github icons"></i
       ></a>
     </div>
+    <script src="/src/script.js"></script>
   </body>
 </html>
